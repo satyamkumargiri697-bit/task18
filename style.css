@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin-top: 60px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #222;
+}
+
+.container {
+    margin: 30px auto;
+    width: 500px;
+}
+
+/* Simple box layout to display them in a line */
+.color-box {
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    border: 2px solid #000000;
+    margin: 10px;
+    line-height: 90px; /* Old way to center text vertically */
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+}
+
+.form-area {
+    margin-top: 20px;
+}
+
+input {
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
